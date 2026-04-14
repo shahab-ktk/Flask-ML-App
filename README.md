@@ -1,33 +1,48 @@
-🚀 Flask ML App – Machine Learning Model Deployment
-
-
-
-
-
-
-📌 Overview
-
-This project demonstrates how to deploy a Machine Learning model using Flask.
-It provides a simple web interface where users can input data and get predictions from a trained ML model.
+🚀 Flask ML Web App – Fire Weather Index (FWI) Prediction System
 <br><br>
-🎯 Features<br><br>
-🔹 User-friendly web interface<br>
-🔹 Real-time predictions<br>
-🔹 Flask-based backend API<br>
-🔹 Pre-trained ML model integration<br>
-🔹 Scalable and lightweight<br>
+A Machine Learning-powered web application built with Flask that predicts the Fire Weather Index (FWI) using environmental and forest-related features from the Algerian Forest Fires dataset.
+<br>
+
+📌 Overview<br> 
+
+This project demonstrates the end-to-end deployment of a trained ML model using Flask.<br>
+Users can input meteorological and fire-related parameters through a simple web interface and receive real-time predictions for fire risk (FWI-based model output).
 <br><br>
-🧠 Machine Learning Model<br><br>
-Model Type: Regression (Ridge Model)
-Preprocessing: StandardScaler
-Trained using Scikit-learn
+🎯 Features<br>
+
+🔹 Simple and clean web interface<br>
+⚡ Real-time prediction system<br>
+🧠 ML model integration (trained on real dataset)<br>
+🌐 Flask-based backend API<br>
+📊 Supports environmental feature inputs<br>
+📦 Lightweight and easy to deploy
 <br><br>
-🛠️ Tech Stack
-Python<br>
-Flask<br>
-Scikit-learn<br>
-HTML/CSS<br>
-Pickle<br>
+🧠 Machine Learning Model<br>
+
+📌 Problem Type: Regression (FWI Prediction)<br>
+📊 Dataset: Algerian Forest Fires Dataset<br>
+⚙️ Algorithm: Ridge Regression (or trained regression model)<br>
+🔧 Preprocessing: StandardScaler normalization<br>
+📚 Library: Scikit-learn
+<br><br>
+📥 Input Features Used <br>
+
+🔹 Temperature (°C)<br>
+🔹 Relative Humidity (%)<br>
+🔹 Wind Speed (km/h)<br>
+🔹 Rain (mm)<br>
+🔹 FFMC (Fine Fuel Moisture Code)<br>
+🔹 DMC (Duff Moisture Code)<br>
+🔹 ISI (Initial Spread Index)<br>
+🔹 Classes (Encoded: 0 = Not Fire, 1 = Fire)<br>
+🔹 Region (Encoded: 0 = Bejaia, 1 = Sidi-Bel Abbes)
+<br><br>
+🛠️ Tech Stack<br>
+🐍 Python<br>
+🌐 Flask<br>
+🤖 Scikit-learn<br>
+🎨 HTML / CSS<br>
+📦 Pickle (Model Serialization)<br>
 
 ## 📁 Project Structure
 
