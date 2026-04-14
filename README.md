@@ -1,14 +1,14 @@
-🚀 Flask ML Web App – Fire Weather Index (FWI) Prediction System
-<br><br>
+<h2>🚀 Flask ML Web App – Fire Weather Index (FWI) Prediction System</h2>
+<br>
 A Machine Learning-powered web application built with Flask that predicts the Fire Weather Index (FWI) using environmental and forest-related features from the Algerian Forest Fires dataset.
 <br>
 
-📌 Overview<br> 
+ <h3>📌Overview</h3>
 
 This project demonstrates the end-to-end deployment of a trained ML model using Flask.<br>
 Users can input meteorological and fire-related parameters through a simple web interface and receive real-time predictions for fire risk (FWI-based model output).
 <br><br>
-🎯 Features<br>
+ <h3>🎯 Features </h3>
 
 🔹 Simple and clean web interface<br>
 ⚡ Real-time prediction system<br>
@@ -17,7 +17,7 @@ Users can input meteorological and fire-related parameters through a simple web 
 📊 Supports environmental feature inputs<br>
 📦 Lightweight and easy to deploy
 <br><br>
-🧠 Machine Learning Model<br>
+ <h3>🧠 Machine Learning Model </h3>
 
 📌 Problem Type: Regression (FWI Prediction)<br>
 📊 Dataset: Algerian Forest Fires Dataset<br>
@@ -25,7 +25,7 @@ Users can input meteorological and fire-related parameters through a simple web 
 🔧 Preprocessing: StandardScaler normalization<br>
 📚 Library: Scikit-learn
 <br><br>
-📥 Input Features Used <br>
+ <h3>📥 Input Features Used  </h3>
 
 🔹 Temperature (°C)<br>
 🔹 Relative Humidity (%)<br>
@@ -37,7 +37,7 @@ Users can input meteorological and fire-related parameters through a simple web 
 🔹 Classes (Encoded: 0 = Not Fire, 1 = Fire)<br>
 🔹 Region (Encoded: 0 = Bejaia, 1 = Sidi-Bel Abbes)
 <br><br>
-🛠️ Tech Stack<br>
+ <h3>🛠️ Tech Stack </h3>
 🐍 Python<br>
 🌐 Flask<br>
 🤖 Scikit-learn<br>
